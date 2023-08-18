@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const clienteAxios = axios.create({
-    url: `${import.meta.env.VITE_BACKEND_URL}/api`,
+    naseURL: `${import.meta.env.VITE_BACKEND_URL}/api`,
     headers: {
         "Access-Control-Allow-Origin": "*",
         'origin':'x-requested-with',
